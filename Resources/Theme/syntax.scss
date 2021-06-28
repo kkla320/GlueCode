@@ -1,0 +1,52 @@
+@import '../Bulma/sass/utilities/initial-variables.sass';
+
+pre {
+    background: $code-background;
+
+    code {
+        font-family: $family-code;
+        display: block;
+        color: $code;
+        overflow-x: auto;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+        
+        .syntax {
+            &-keyword {
+                color: #9B2393;
+            }
+            
+            &-type {
+                color: #8281ca;
+            }
+            
+            &-call {
+                color: #326D74;
+            }
+            
+            &-property {
+                color: #326D74;
+            }
+            
+            &-number {
+                color: #1C00CF;
+            }
+            
+            &-string {
+                color: #C41A16;
+            }
+            
+            &-comment {
+                color: #5D6C79;
+            }
+            
+            &-dotAccess {
+                color: #92b300;
+            }
+            
+            &-preprocessing {
+                color: #643820;
+            }
+        }
+    }
+}

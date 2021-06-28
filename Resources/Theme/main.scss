@@ -1,0 +1,20 @@
+@import '../Bulma/sass/utilities/initial-variables.sass';
+
+$primary: #315E41;
+$background: #F5F5F5;
+$text: #706563;
+$family-code: JetBrainsMono;
+$code: #000000;
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import "../Bulma/bulma.sass";
+@import "./syntax.scss";
